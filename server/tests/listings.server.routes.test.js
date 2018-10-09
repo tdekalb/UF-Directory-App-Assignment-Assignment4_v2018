@@ -24,7 +24,7 @@ describe('Listings CRUD tests', function() {
       .end(function(err, res) {
         should.not.exist(err);
         should.exist(res);
-        res.body.should.have.length(147);
+        res.body.should.have.length(146);
         done();
       });
   });
@@ -109,10 +109,7 @@ describe('Listings CRUD tests', function() {
       Listing.remove({_id: id}, function(err){
         if(err) throw err;
         done();
-      })
-    }
-    else {
-        done();
-    }
-  });
+      }); 
+    }else done();
+  }); 
 });

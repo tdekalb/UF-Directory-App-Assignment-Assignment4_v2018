@@ -1,9 +1,9 @@
 {
   "name": "Assignment4",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Routing server-side requests using ExpressJS",
   "main": "server.js",
-  "author": "Medhir Bhargava",
+  "author": "Medhir Bhargava & Christina Gardner-McCune",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.14.1",
